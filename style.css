@@ -1,0 +1,170 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+  header {
+    margin-top: 20px;
+  }
+  
+  .photo {
+    z-index: 1;
+    margin-right: -13%;
+  }
+  
+  img.profil {
+    width: 230px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+  }
+  
+  .titre {
+    background-color: #eee;
+    height: 210px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em 0 8em;
+  }
+  
+  .titre h1 {
+    font-family:'Lobster', cursive;
+    font-size: 4em;
+    letter-spacing: .02em;
+  }
+  
+  .titre h3 {
+    color: #ff6c00;
+    letter-spacing: .05em;
+    margin-top: 0;
+  }
+
+  
+  .container.content {
+    margin-top: 5px;
+  }
+  
+  i.fa {
+    color: #ff6c00;
+    font-size: 25px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+  }
+  
+  
+  .table.experience td {
+    padding: 20px;
+  }
+  
+  td.year {
+    font-size: 12px;
+  }
+  
+
+  .side-info {
+    border-left: 1px solid #eee;
+  }
+  
+  .contact,
+  .competence,
+  .about {
+    margin-left: 10px;
+  }
+  
+  .competence ul {
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    padding-left: 0;
+  }
+  
+  .competence ul li {
+    margin-bottom: 3px;
+  }
+  
+  #niveau .fa {
+    font-size: 14px;
+    margin-right: 2px;
+  }
+  
+  #developpement {
+    border-right: 2px solid #eee;
+  }
+  
+  .about > p {
+    line-height: 1.5;
+  }
+
+  .row.footer {
+    margin-top: 10px;
+  }
+  
+  .footer p{
+    font-size: 14px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  
+    .titre h1 {
+      font-size: 3.2em;
+      padding-left: 0.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+  
+    header .row {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .photo {
+      margin-right: 0;
+    }
+  
+    img.profil {
+      width: 205px;
+      border: 10px solid #eee;
+      margin-bottom: 1em;
+    }
+  
+    .titre {
+      height: 140px;
+      padding: 0 2em;
+    }
+  
+    .titre h1 {
+      font-size: 3.2em;
+    }
+  }
+  
+  @media only screen and (max-width: 497px) {
+  
+    .photo {
+      max-width: 319px;
+    }
+  
+    img.profil {
+      width: 150px;
+    }
+  
+    .titre h1 {
+      font-size: 2em;
+      padding-left: 0;
+    }
+  
+    .titre h3 {
+      font-size: 1.2em;
+    }
+  
+    .titre {
+      height: 110px;
+    }
+  }
+  
