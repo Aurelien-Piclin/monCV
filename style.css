@@ -168,3 +168,11 @@ h1, h2, h3 {
     }
   }
   
+  .iconvg {
+    height:45px;
+    width:auto;
+  }
+
+  blockquote {
+    margin-top: 50px;
+  }
